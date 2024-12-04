@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TextFlow Dev</title>
+  <link href="popup.css" rel="stylesheet">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M17 6.5L12 3 7 6.5M12 3v18"/>
+          <path d="M6.5 8.5v7L12 19l5.5-3.5v-7"/>
+        </svg>
+      </div>
+      <div class="title">
+        <h1>TextFlow Dev</h1>
+        <p>Transform your text instantly</p>
+      </div>
+    </div>
+
+    <!-- Style Selection -->
+    <div class="styles-section">
+      <h2>Writing Style</h2>
+      <div class="style-buttons">
+        <button class="style-btn" data-style="formal">
+          <span class="icon">✒️</span>
+          <span>Formal</span>
+        </button>
+        <button class="style-btn" data-style="casual">
+          <span class="icon">💬</span>
+          <span>Casual</span>
+        </button>
+        <button class="style-btn" data-style="creative">
+          <span class="icon">🎨</span>
+          <span>Creative</span>
+        </button>
+        <button class="style-btn" data-style="academic">
+          <span class="icon">📚</span>
+          <span>Academic</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- History -->
+    <div class="history-section">
+      <div class="history-header">
+        <h2>Recent History</h2>
+        <button id="clearHistory" class="clear-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+          </svg>
+          Clear
+        </button>
+      </div>
+      <div id="history" class="history-list"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="hint">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9z"/>
+          <path d="M13 2v7h7"/>
+        </svg>
+        Select text & right-click to rephrase
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -16,7 +16,7 @@ const STYLES = [
 // Initialize AI session
 async function initAISession(style, customPrompt = '') {
   try {
-     const systemPrompt = `You are an AI text rewriter. Rewrite the provided text strictly in ${style} format while preserving its original meaning. Do not add, omit, or alter any information. Ensure the rewritten text maintains basic line breaks for readability where appropriate. Do not provide any additional commentary or analysis. ${customPrompt ? `Custom instructions: ${customPrompt}` : ''}`;
+     const systemPrompt = `You are an AI text rewriter. Your task is to rewrite the provided text in ${style} format. IMPORTANT: Return ONLY the rewritten text without any explanations, comments, or analysis. Maintain the original meaning and preserve basic line breaks for readability. Do not add or omit any information. ${customPrompt ? `Custom instructions: ${customPrompt}` : ''}`;
 
     aiSession = await ai.languageModel.create({ systemPrompt });
     return true;

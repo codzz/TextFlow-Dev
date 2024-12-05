@@ -15,12 +15,15 @@ It's super simple:
 
 1.  Just click on any text you want to change
 2.  A small, friendly popup appears right there
-3.  Choose how you want your text to sound:
+   ![image](https://github.com/user-attachments/assets/32a7cd51-8d9c-457c-976d-89b06e03fa8c)
+4.  Choose how you want your text to sound:
     -   Want it to sound professional? Use the Formal Style
     -   Need it casual and friendly? There's a style for that
     -   Feeling creative? We've got you covered
     -   Writing something academic? We have a style for that too
     -   Or make up your own style - it's totally up to you!
+    -   ![image](https://github.com/user-attachments/assets/1a332bb3-a52f-426c-97e8-afaa7260644a)
+
 
 ## Cool Features That Make Life Easier
 

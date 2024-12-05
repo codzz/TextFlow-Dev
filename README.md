@@ -21,7 +21,8 @@ It's super simple:
     -   Feeling creative? We've got you covered
     -   Writing something academic? We have a style for that too
     -   Or make up your own style - it's totally up to you!
-![RkxHNtxpmY](https://github.com/user-attachments/assets/6a8954fb-8ba5-49a5-9a7e-4d7b02a14b88)
+
+https://github.com/user-attachments/assets/d2baf75e-a011-4cce-8a67-710233de0fa5
 
 ## Cool Features That Make Life Easier
 
@@ -42,10 +43,14 @@ It's super simple:
 Imagine you're:
 
 -   Updating product descriptions on an e-commerce site
-  ![chrome_amH841X9gc](https://github.com/user-attachments/assets/f1669063-d86e-4145-96ae-2436323159ee)
+
+https://github.com/user-attachments/assets/dafc6382-c90a-407f-8ee9-c600b97922b6
+
 -   Fixing typos in documentation
 -   Rewriting website content to sound more professional
 -   Testing how different writing styles look on your site
+
+https://github.com/user-attachments/assets/f7d1df0a-5edc-4572-a14e-b92cb16c4e6f
 
 ## What Makes It Special?
 
@@ -53,6 +58,7 @@ Imagine you're:
 2.  It's Smart: AI helps you write better text
 3.  It's Simple: Anyone can use it, even if they're not tech-savvy
 4.  It's Safe: Your changes stay in your browser
+
 
 ## Looking Ahead
 
